@@ -1,0 +1,1702 @@
+Funcion ejercicio1
+	//Ejercicio N°1 "Encontrar el valor de x"
+	//Definimos las variables a,b,x como enteras
+	//Las variables a=3 y b=7 x=2*a+b-a mod 3
+	//Orden de operaciones: (),^,* / mod, + -
+	//x = 2 * 3 + 7 - 3 mod 3
+	//x = 6 + 7 - 0
+	//x = 13
+	Definir a,b como entero
+	a=3
+	b=7
+	x=2 * a + b- 3 mod 3
+	Escribir "El valor de x es:", x
+FinFuncion
+
+  Funcion ejercicio2
+//Ejercicio N°2 "Encontrar el valor de z"
+//Definimos las variables a,b,z como enteras
+//Las variables a=10, b=4 y z=a*b+3 mod a+b
+//Orden de operaciones: (),^,* / mod, + -
+//z=10*4+3 mod 10+4
+//z=40+3+4
+//z=47
+Definir a,b Como Entero 
+a = 10
+b = 4
+z = a*b+3 mod a+b
+Escribir "El valor de z es:" z
+FinFuncion
+
+Funcion ejercicio3
+//Ejercicio N°3 "Encontrar el valor de w"
+//Definimos las variables a,b,w como enteras
+//Las variables a=6, b=2 y w=a-b+2*a mod b
+//Orden de operaciones: (),^,* / mod, + -
+//w=6-2+2*6 mod 2
+//w=6-2+12 mod 2
+//w=6-2+0
+//w = 4
+Definir a,b Como Entero
+a = 6
+b = 2
+w = a - b + 2 * a mod b
+Escribir "El valor de w es:", w
+FinFuncion
+
+Funcion ejercicio4
+//Ejercicio N°4 "Encontrar el valor de v"
+//Definimos las variables a,b,v como enteras
+//Las variables a=8, b=5 y v=2*b+a div 2+4*b mod a
+//Orden de operaciones: (),^,* / trunc-mod, + -
+//v=2*5+8 trunc 2+4*5 mod 8
+//v=10+4+20 mod 8
+//v=16
+Definir a,b como entero
+a = 8
+b = 5
+v = 2 * b + a / (2 + 4) * (b mod a)
+Escribir "El valor de v es:", v
+FinFuncion
+
+Funcion ejercicio5
+	//Ejercicio N°5 "Encontrar el valor de u"
+	//Definimos las variables a,b,u como enteras
+	//Las variables a=12, b=9 y u=b-a+3*a mod b
+	//Orden de operaciones: (),^,* /, + -
+	//u=9-12+3*12 mod 9
+	//u=9-12+3-3
+	//u=9-12+9
+	//u=-3
+	Definir a,b como entero
+	a = 12
+	b = 9
+	u = b - a + 3 * a mod b
+	Escribir "El valor de u es:", u
+FinFuncion
+
+Funcion ejercicio6
+	//Ejercicio N°6 "Determinar la veracidad de la siguiente expresion"
+	//Definimos las variables conjunto1,conjunto2, valor1, valor2 como entero
+	//conjunto1=(5+3*2)+9 > conjunto2=3*5*14 %3
+	//Resolver las operaciones y usar el comando Si-Entonces
+	//De forma que, Si conjunto1 > conjunto2 Entoces Escribir Verdadero"; SiNO Escribir"Falso"  FinSI
+	Definir conjunto1, conjunto2 Como entero
+	conjunto1= (5 + 3 * 2) + 9
+	conjunto2 = 3 * 5 * 14 %3
+	valor1 = conjunto1
+	valor2 = conjunto2
+	Si valor1 > valor2 Entonces
+		Escribir "Es verdadero"
+	SiNo
+		Escribir"Es falso"
+	FinSi
+	
+FinFuncion
+
+Funcion ejercicio7
+	//Ejercicio N°7 "Calcular la operacion"
+	//Definimos operacion, resultado como variables reales
+	//Donde la variable operacion=2*(4-10+8)/2*36*(1/2)
+	//La variable resultado tomara el valor de la variable operacion
+	//Escribir "El resultado de la operacion es:" resultado
+	Definir operacion, resultado como real
+	operacion = 2 * (4 - 10 + 8) / 2 * 36 * (1/2)
+	resultado = operacion
+	Escribir "El resultado de la operacion es:" resultado
+FinFuncion
+
+Funcion ejercicio8
+	//Ejercicio N°8 "Calcular la operacion"
+	//Definimos operacion, resultado como variables reales
+	//La variable operacion= 260/12+54%3-85%3
+	//La variable resultado tomara el valor de la variable operacion
+	//Escribimos "El resultado de la operacion es:" resultado
+	Definir operacion, resultado como real
+	operacion = 260 / 12 + 54 % 3 - 85 % 3
+	resultado = operacion
+	Escribir "El resulatdo de la operacion es:" resultado
+	
+FinFuncion
+
+Funcion ejercicio9
+	//Ejercicio N°9 "Operacion logica"
+	//Definimos num1, num2 como variables logicas
+	//Definimos condicion como logico
+	//Variable num1=(48<2*3)
+	//Variable num2=(2*7<12)
+	//Variable condicion= num1 o num2;
+	//Escribimos la variable condicion
+	Definir  num1, num2 Como Logico
+	Definir condicion Como Logico
+	num1 = (48 < 2 * 3)
+	num2 = (2 * 7 < 12)
+	condicion = num1 o num2; 
+	Escribir condicion
+FinFuncion
+
+Funcion ejercicio10
+	//Ejercicio N°10 "Operaciones logicas"
+	//Definimos num1, num2, num3 como variables logicas
+	//Definimos condicion1, condicion2 como logicas 
+	//variable num1=(8>2)
+	//Variable num2=(932<23)
+	//Variable num3=4==2
+	//Variable condicion1= num1 o num2;
+	//Variable condicion2=num1 o num2 Y num3;
+	//Escribimos la variable condicion1
+	//Escribimos la variable condicion2
+	Definir num1, num2, num3 Como Logico
+	Definir condicion1, condicion2 como logico
+	num1 = (8>2)
+	num2 = (932<23)
+	num3 = 4 == 2
+	condicion1 = num1 o num2;
+	condicion2 = num1 Y num2 Y num3;
+	Escribir condicion1
+	Escribir condicion2
+FinFuncion
+
+Algoritmo tarea_ejercicios_de_expresion
+	ejercicio1 
+	ejercicio2
+	ejercicio3
+	ejercicio4
+	ejercicio5
+	ejercicio6
+	ejercicio7
+	ejercicio8
+	ejercicio9
+	ejercicio10
+	
+FinAlgoritmo
+
+	Funcion ejercicio11
+	//Ejercicio N°11 "Suma de dos numeros"
+	//Definimos a,b,c como variables enteras
+	//Pedir al usuario que ingrese el primer valor
+	//Leer variable a
+	//Pedir al usuario que ingrese el segundo valor
+	//Leer variable b
+	//La variable c tomara los valores de las variables a y b sumados	
+		//Escribimos "La suma de los dos valores es:", c
+		Escribir "Suma de dos numeros"
+		Definir a,b,c Como Entero
+		Escribir "Ingrese el primer valor"
+		leer a
+		Escribir "Ingrese el segundo valor"
+		leer b
+		c = a + b
+		Escribir "La suma de estos dos valores es:", c
+	
+FinFuncion
+
+Funcion ejercicio12
+	//Ejercicio N°12 "Calcular el area de un triangulo"
+	//Definimos a,c,z como variables reales
+	//Pedir al usuario que ingrese el valor de la base del triangulo
+	//Leer variable a
+	//Pedir que el usuario ingrese el valor de la altura del triangulo
+	//Leer la variable b
+	//Las variables a y b se multiplicaran y luego se dividiran para 2
+	//La variable z tomara el valor del resultado anterior
+	//Escribimos "El area ddel triangulo es:", z
+	Escribir "Calcular el area de un triangulo"
+	Definir a,b,z Como real
+	Escribir "Ingrese el valor de la base del triangulo"
+	leer a
+	Escribir "Ingrese el valor de la altura del triangulo"
+	leer b
+	z = a * b / 2
+	Escribir "El area del triangulo es:" , z
+	
+FinFuncion
+
+Funcion ejercicio13
+	//Ejercicio N°13 "Determinar si un numero es par o impar
+	//Definimos a,b como variables reales
+	//Pedir al usuario que ingrese un numero
+	//La variable a tomara el numero ingresado por el usuario
+	//La variable b = a mod 2
+	//Usamos el comando Si-Entonces para determinar si es un numero par o impar
+	Escribir "Determinar si un numero es par o impar"
+	Definir a,b Como real
+	Escribir "Ingrese un numero"
+	leer a
+	b = a mod 2
+	Si b = 0 Entonces
+		Escribir "Es un numero par"
+	SiNo
+		Escribir "Es un numero impar"
+	Fin Si
+FinFuncion
+
+Funcion ejercicio14
+	//Ejercicio N°14 "Calculadora simple"
+	//Definimos n1,n2,opc,resultado como variables enteras
+	//Pedir al usuario que ingrese un numero
+	//Leemos la variable n1
+	//Pedir al usuario que ingrese el segundo numero
+	//Leer n2
+	//Escribimos "Ingrese una opcion" donde 1.= sumar; 2.=restar; 3.=multiplicar; 4.=dividir
+	//Usamos el comando Segun para elaborar la operacion
+	Escribir "Calculadora simple"
+	Definir n1, n2, opc, resultado como entero
+	Escribir "Ingrese un numero"
+	leer n1
+	Escribir "Ingrese el segundo numero"
+	leer n2
+	Escribir "Ingrese una opcion"
+	Escribir "1. Sumar" 
+	Escribir "2. Restar"
+	Escribir "3. Multiplicar"
+	Escribir "4. Dividir"
+	leer opc
+	Segun opc Hacer
+		1:
+			resultado = n1 + n2;
+			Escribir "La suma es:", resultado; 
+		2:
+			resultado = n1 - n2;
+			Escribir "La resta es:", resultado
+		3:
+			resultado = n1 * n2
+			Escribir "La multiplicacion es:", resultado
+		4:
+			resultado = n1 / n2
+			Escribir "La division es:", resultado
+		De Otro Modo:
+			Escribir "Opcion incorrecta"
+	Fin Segun
+FinFuncion
+
+Funcion ejercicio15
+	//Ejercicio N°15 "Tabla de multiplicar"
+	//Definimos las variables num1, t, i, resultado como enteras
+	//Pedir al usuario que ingrese un numero
+	//La variable t = 10
+	//Usamos el comando "Para" para ejecutar la operaion
+	Escribir "Tabla de multiplicar"
+	Definir num1, t, i, resultado Como Entero
+	Escribir "Ingrese un numero"
+	leer num1
+	t = 10
+	Para i = 0 Hasta t Con Paso 1 Hacer
+		resultado = num1 * i
+		Escribir num1  "X"  i, " = ", resultado;
+	Fin Para
+FinFuncion
+
+Funcion ejercicio16
+	//Ejercicio N°16 "Concatenar palabras"
+	//Definimos cadena1, cadena2, cadena3 como variables caracter
+	//Pedimos que ingrese una palabra
+	//La variable cadena1 tomara la palabra antes escrita
+	//Pedimos que ingrese otra palabra
+	//La variable cadena2 tomara la segunda palabra
+	//Usamos la funcion concatenar para unir las dos palabras
+	//La variable cadena3 guardara las palabras concatenadas
+	//Escribimos la variable cadena3
+	Escribir "Concatenar palabras"
+	Definir cadena1, cadena2, cadena3 Como Caracter
+	Escribir "Ingrese una palabra"
+	leer cadena1
+	Escribir "Ingrese otra palabra"
+	leer cadena2
+	cadena3 = Concatenar(cadena1,cadena2);
+	Escribir cadena3
+FinFuncion
+Funcion ejercicio17
+	//Ejercicio N°17 //Mayor de tres numeros
+	//Definimos n1, n2, n3 como variables enteras
+	//Pedimos al usuario que ingrese el primer numero
+	//Leemos n1
+	//Pedimos al usuario que ingrese el segundo numero
+	//Leemos n2
+	//Pedimos al usuario que ingrese el tercer numero
+	//Leemos n3
+	//Usamos el comando Si-Entonces para realizar la operacion
+	Escribir "Mayor de tres numeros"
+	Definir n1, n2, n3 Como Entero
+	Escribir "Ingrese el primer numero"
+	leer n1
+	Escribir "Ingrese el segundo numero"
+	leer n2
+	Escribir "Ingrese el tercer numero"
+	Leer n3
+	Si (n1 > n2 Y n1 > n3) Entonces
+		Escribir "El numero mayor es:", n1
+	SiNo
+		Si (n2 > n1 Y n2 > n3) Entonces
+			Escribir "El numero mayor es:", n2
+		SiNO 
+			Si (n3 > n1 Y n3 > n2) Entonces
+				Escribir "El numero mayor es:", n3
+			SiNo 
+				Escribir "Los numeros son inguales"
+			FinSi
+		FinSi
+	Fin Si
+		
+FinFuncion
+
+Funcion ejercicio18
+	//Ejercicio N°18 "Edad minima para votar"
+	//Definimos a,b,w como variables enteras
+	//Pedimos al usuario que ingrese el año actual
+	//Leemos a
+	//Pedimos al usuario que ingrese el año de su nacimiento
+	//Leemos b
+	//Restamos su edad con el año de su nacimiento y el resultado lo guardamos en la variable w
+	//Usamos e<l comando Si-Entonces para realizar el ejercicio
+	Escribir "Edad minima para votar"
+	Definir a, b, w Como Entero
+	Escribir "Ingrese el año actual"
+	leer a
+	Escribir "Ingrese el año de su nacimiento"
+	leer b
+	w =  a - b 
+	Si w >= 18 Entonces
+		Escribir "Tienes edad suficiente para poder votar"
+	SiNo
+		Escribir "No tienes edad para poder votar"
+	Fin Si
+FinFuncion
+
+Funcion ejercicio19
+	//Ejercicio N°19 "Calculadora de BMI"
+	//Definimos peso,altura,res como variables reales
+	//Pedimos al usuario que ingrese su peso
+	//Leemos peso
+	//Pedimos al usuario que ingrese su altura
+	//Leemos altura
+	//res = peso / altura ^2 
+	//Usamos el comando Si-Entonces para ejecutar el ejercicio
+	Escribir "Claculadora de BMI"
+	Definir peso, altura, res como real
+	Escribir "Ingrese su peso (KG)"
+	leer peso
+	Escribir "Ingrese su altura"
+	leer altura
+	res = peso / altura^2 
+	Escribir "Tu masa corporal es:", res
+	Si res = 18.5 Entonces
+		Escribir "Su masa corporal es saludable"
+	SiNo
+		Escribir "Su masa corporal esta fuera del rango saludable"
+	Fin Si
+FinFuncion
+
+Funcion ejercicio20
+	//Ejercicio N°20 "Determinar si un numero es positivo, negativo o cero
+	//Definimos num1 como variable entera
+	//Pedimos al usuario que ingrese un numero
+	//leemos num1
+	//Usamos el comando Si-Entonces para realizar el ejercicio
+	Escribir "Deerminar si un numero es positivo, negativo o cero"
+	Definir num1 como entero
+	Escribir "Ingrese un numero"
+	leer num1
+	Si num1 > 0 Entonces
+		Escribir "El numero es positivo"
+	SiNo
+		Si num1 < 0 Entonces
+			Escribir "El numero es negativo"
+		SiNo
+			Si num1 = 0 Entonces
+				Escribir "El numero es 0"
+			FinSi
+		FinSi
+	Fin Si
+FinFuncion
+
+Funcion ejercicio21
+	//Ejercicio N°21 "Año bisiesto"
+	//Definimos la variable año como entero
+	//Pedimos al usuario que ingrese un año
+	//Leemos año
+	//Usar el comando Si-Entonces
+	Escribir "Determinar si un año es bisiesto"
+	Definir año Como Entero
+	Escribir "Ingrese un año"
+	leer año
+	Si año mod 4 = 0 Y (año mod 100 <> 0) o(año mod 400 = 0) Entonces
+		Escribir "El año", año, "es bisiesto"
+	SiNo
+		Escribir "El año" , año , "no es bisiesto" 
+	Fin Si
+FinFuncion
+
+Funcion ejercicio22
+	//Ejercicio22 "Signo zodiacal"
+	//Definimos mes, dia como variables enteras
+	//Definimos signo como variable de caracter
+	//Pedimos que ingrese su año de nacimiento
+	//Leemos año
+	//Pedimos que ingrese su dia de nacimiento
+	//Leemos dia
+	//Usamos el comando Segun para resolver el ejercicio
+	Escribir "Signo Zodiacal"
+	Definir mes, dia Como Entero
+	Definir signo Como Caracter 
+	Escribir "Ingrese el dia de su nacimiento"
+	leer dia
+	Repetir
+		
+	Hasta Que dia <= 31 Y dia >= 1
+    Repetir
+		Escribir "Ingrese el mes de su nacimiento"
+		Escribir "1) enero"
+		Escribir "2) febrero"
+		Escribir "3) marzo"
+		Escribir "4) abril"
+		Escribir "5) mayo"
+		Escribir "6) junio"
+		Escribir "7) julio"
+		Escribir "8) agosto"
+		Escribir "9) septiembre"
+		Escribir "10) octubre"
+		Escribir "11) noviembre"
+		Escribir "12) diciembre"
+		leer mes
+	Hasta que mes >= 1 Y mes <= 12
+	
+	Segun mes Hacer
+		1:
+			Si (dia >= 21) 
+				signo = "acuario"
+			SiNo 
+				signo = "capricornio"
+		     
+			FinSi
+		2:
+			Si (dia >= 19)
+				signo = "psicis"
+			SiNo 
+				signo = "acuario"
+			FinSi
+			3:
+				Si (dia >= 20)
+					signo = "aries"
+				SiNo
+				signo ="psicis"
+			FinSi
+		4:
+			Si (dia >= 20)
+			    signo = "tauro"
+			SiNo
+				signo = "aries"
+			FinSi
+		5:
+			Si (dia >= 21)
+				signo = "geminis"
+			SiNo
+				signo = "tauro"
+			FinSi
+		6:
+			Si (dia >= 20)
+				signo = "cancer"
+			SiNo
+				signo = "geminis"
+			FinSi
+		7:
+			Si (dia >= 22)
+				signo = "leo"
+			SiNo
+				signo = "cancer"
+			FinSi
+		8:
+			Si (dia >= 21)
+				signo = "virgo"
+			SiNo
+				signo = "leo"
+			FinSi
+		9:
+			Si (dia >= 22)
+				signo = "libra"
+			SiNo
+				signo = "virgo"
+			FinSi
+		10:
+			Si (dia >= 22)
+				signo = "escorpion"
+			SiNo
+				signo = "libra"
+			FinSi
+		11:
+			Si (dia >= 21)
+				signo = "sagitario"
+			SiNo
+				signo = "escorpion"
+			FinSi
+		12:
+			Si (dia >= 21)
+				signo = "capricornio"
+			SiNo
+				signo = "sagitario"
+			FinSi
+	FinSegun
+	Escribir "Su signo zodiacal es:" signo
+	
+FinFuncion
+
+Funcion ejercicio23
+	//Ejercicio N°23 "Dia del mes con respecto a la quincena"
+	//Definimos num1 como variables enteras
+	//Definimos r como variable de cararcter
+	//Pedimos al usuiario que ingrese un numero del mes
+	//leemos num1
+	//Usamos el comandndo Segun para realizar el ejercicio
+	Escribir "Dia del mes con respecto a la quincena"
+	Escribir "Ingrese un numero"
+	Definir num1 Como Entero
+	Definir r como caracter
+	Escribir "Ingrese un dia del mes"
+	leer num1
+	Repetir
+		
+	Hasta Que num1 <= 31 Y num1 >= 1
+	Si (num1 <= 15) Entonces
+		Escribir "Este dia pertenece a la primera quincena"
+	SiNo
+		Si (num1 >= 16) Entonces
+			Escribir "Este dia pertenece a la segunda quincena"
+		FinSi
+	Fin Si
+	
+FinFuncion
+
+Funcion ejercicio24
+	//Ejercicio N°24 "Dia de la semana"
+	//Definimos dia como una variable entera
+	//Pedimos al usuario que ingrese un numero
+	//Leemos dia
+	//Usamos el comando Segun para realizar el ejercicio
+	Escribir "Dia de la semana"
+	Definir dia Como Entero
+	Definir res como caracter
+	leer dia 
+	Repetir
+		
+	Hasta Que (dia <= 7 ) Y (dia >= 1)
+	Segun dia Hacer
+		1:
+		     Si (dia = 1)
+			  res = "Este dia es Lunes"
+			FinSi
+		2:
+		    Si (dia = 2)
+			  res = "Este dia es Martes"
+		     FinSi
+		3:
+		    Si (dia = 3)
+				res = "Este dia es Miércoles"
+			FinSi
+		4:
+		    Si (dia = 4)
+			    res = "Este dia es Jueves"
+			FinSi
+		5:
+		    Si (dia = 5)
+			  res = "Este dia es Viernes"
+			FinSi
+		6:
+		    Si (dia = 6)
+			   res = "Este dia es Sábado"
+		   FinSi
+		7:
+		Si (dia = 7)
+			   res = "Este dia es Domingo"
+		FinSi
+		De Otro Modo:
+			Escribir "Los datos ingresados son incorrectos"
+	Fin Segun
+	Escribir res
+FinFuncion
+
+Funcion ejercicio25
+	//Ejercicio N°25 "Comparar palabras"
+	//Definimos palabra1, palabra2 como variables de caracter
+	//Pedimos al usuario que ingrese una palabra
+	//Leer palabra1
+	//Pedimos al usuario qe ingrese la segunda palabra
+	//Leer palabra2
+	//Usamos el comando Si-Entonces para ejecutar el ejercicio
+	Escribir "Comparar palabras"
+	Definir palabra1, palabra2 Como Caracter
+	Escribir "Ingrese una palabra"
+	leer palabra1
+	Escribir "Ingrese la segunda palabra"
+	leer palabra2
+	Si palabra1 = palabra2 Entonces
+		Escribir "Las palabras son iguales"
+	SiNo
+		Escribir "Las palabras son diferentes"
+	Fin Si
+FinFuncion
+
+Funcion ejercicio26
+	//Ejercicio N°26 "Calculadora de precio con descuento"
+	//Definimos precio, porcentaje, descuento como variables enteras
+	//Pedimos al usuario que ingrese el precio
+	//Leemos precio
+	//Pedimos al usuario que ingrese le valor del porcentaje
+	//Leemos descuento
+	//Escribimos la variable descuento ya que almacena el total del descuento
+	Escribir "Calculadora de precio con descuento"
+	Definir precio, porcentaje, total, total2 Como real
+	Escribir "Ingrese el precio"
+	leer precio
+	Escribir "Ingrese el porcentaje de su descuento %"
+	leer porcentaje 
+	total = precio * porcentaje / 100 
+	total2 = precio - total
+	Escribir "Su precio final es de:", total2 "$"
+	
+FinFuncion
+
+Funcion ejercicio27
+	//Ejercicio N°27 "Calculadora de factura con impuestos"
+	//Definimos total,impuesto,total2 como variables reales
+	//Pedimos al usuario que ingrese el total de la compra
+	//Leer total
+	//Pedimos al usuario que ingrese el valor de los impuestos aplicado
+	//Leer imppuesto
+	//La variable total2 contendra el valor de la suma entre total e impuesto
+	//Escribimos total2
+	Escribir "Calculadora de factura com impuestos"
+	Definir total, impuesto, total2 Como Real
+	Escribir "Ingrese el valor de su compra $"
+	leer total
+	Escribir "Ingrese el valor de los impuestos a pagar"
+	leer impuesto
+	total2 = total * impuesto / 100
+	total3 = total + total2
+	Escribir "El total a pagar por su compra es de:" ,total3,  "$"
+	
+FinFuncion
+
+Funcion ejercicio28
+	//Ejercicio N°28 "Calculadora de sueldo con aumento"
+	//Definimos salario, aumento, calculo, suma, nuevosalario como variables reales
+	//Pedimos al usuario que ingrese el valor de su salario actual
+	//Leer salario
+	//Pedimos al usuario que ingrese el porcentaje de aumento de su sueldo
+	//Leer aumento
+	//calculo = salario * aumento / 100
+	//suma = salario + calculo
+	//nuevosalario = suma
+	Escribir "Calculadora de sueldo con aumento"
+	Definir salario, aumento, calculo, suma, nuevosalario Como real
+	Escribir "Ingrese el valor de su salario actual $"
+	leer salario
+	Escribir "Ingrese el porcentaje de aumento de su sueldo %"
+	leer aumento
+	calculo = salario * aumento / 100
+	suma = salario + calculo 
+	nuevosalario = suma
+	Escribir "Su nuevo salario sera de:" , nuevosalario, "$"
+	
+FinFuncion
+
+Funcion ejercicio29
+	//Ejercicio N°29 "Calculadora de compra con multiples articulos"
+	//Definimos precio, cantidad, total como variables reales
+	//Pedimos al usuario que ingrese el precio de su compra
+	//leer precio
+	//Pedimos al usuario que ingrese la cantidad de productos comprados
+	//leer cantidad
+	//Usamos el comando Si-Entonces para realizar el calculo
+	Escribir "Calculadora de compra con multiples articulos"
+	Definir precio, cantidad, total, total2, total3 Como Real
+	Escribir "Ingrese el precio de su compra $"
+	leer precio
+	Escribir "Ingrese la cantidad de productos que compro"
+	leer cantidad
+	total = precio 
+	total2 = total
+	Si (cantidad >= 12) Entonces
+	    total3 = total * 10 / 100
+		total4 = total2 - total3
+		Escribir "Usted tiene un descuento del 10% por comprar mas de 12 productos y su precio final es de:" ,total4, "$"
+	SiNo
+		Escribir "El precio final es:" , total, "$"
+	Fin Si
+	
+FinFuncion
+
+Funcion ejercicio(30,32)
+	//Ejercicio N°30 "Calculadora de impuestos sobre salario"
+	//Definimos las variables salario, res como real
+	//Pedimos al usuario que ingrese su salario
+	//Leemos salario
+	//Usamos el comando Si-Entonces para realizar la operacion
+	Escribir "Calculadora de impuestos sobre salario"
+	Definir salario, res, total Como real
+	Escribir "Ingrese su salario $"
+	leer salario
+    Si (salario <= 10000) Entonces
+		res = salario * 5 / 100
+		total = res
+	SiNo
+		Si (salario > 10001) Y (salario <= 20000) Entonces
+			res = salario * 10 / 100
+			total = res
+		SiNo
+			Si (salario > 20000) Entonces
+				res = salario * 15 / 100
+				total = res
+			FinSi
+		FinSi
+	Fin Si
+	
+	Escribir "Su impuesto sobre la renta es de:" , total "$"
+FinFuncion
+
+Funcion ejercicio33
+	//Ejercicio N°33 "Descuento por antigÜedad"
+	//Definimos las variables años, salario, calculo, bono como reales
+	//Pedimos al usuario que ingrese los años que ha estado en la empresa
+	//Leemos años
+	//Si años >= 5 otorgamos un bono del 5%
+	//Usamos el comando Si-Entonces 
+	Escribir "Descuento por antigÜedad"
+	Definir años,calculo, bono Como Real
+	Escribir "Cuantos años has estado trabajando con nosotros"
+	leer años
+	Escribir "Cual es tu salario"
+	leer salario
+	Repetir
+		
+	Hasta Que (años > 5)
+	Si años >= 5 Entonces
+		calculo = salario * 5 / 100
+		bono = salario + calculo
+	SiNo
+		Escribir "No aplicas a ningun bono"
+	Fin Si
+	Escribir "Usted tiene un bono del 5% por estar con nosotros mas de 5 años"
+	Escribir "Su nuevo salario gracias al bono es de:" , bono "$"
+	
+FinFuncion
+
+Funcion ejercicio34
+	//Ejercicio N°34 "Calculadora de envios con diferentes tarifas"
+	//Definimos las variables dis,costo,total como reales
+	//Pedimos al usuario que ingrese la distancia de envio 
+	//Leer dis
+	//Pedimos al usuario que ingrese el costo del envio
+	//Leer costo
+	//Usamos el comando Si-Entonces para ejecutar la operaciom
+	Escribir "Calculadora de envios con diferentes tarifas"
+	Definir dis, costo, total Como Real
+	Escribir "Cual es la distancia del envio (Km)"
+	leer dis
+	Escribir "Cual es el costo del envio ($)"
+	leer costo
+	Si dis < 50 Entonces
+		total = costo + 10
+	SiNo
+		Si dis >= 50 Entonces
+			total = costo + 20
+		FinSi
+	Fin Si
+	Escribir "El costo total del envio incluido tarifas es de:" , total, "$"
+	
+FinFuncion
+
+Funcion ejercicio35
+	//Ejercicio N°35 "Calculadora de descuento por lealtad"
+	//Definimos la variable total como entero
+	//Pedimos al usuario que ingrese el total de sus compras mensuales durante un año
+	//Leer total
+	//Si total > 500 aplicar un descuento del 10% en su proxima compra
+	Escribir "Calculadora de descuento por lealtad"
+	Definir total como entero
+	Escribir "Ingrese el total de sus compras mensuales durante el año ($)"
+	leer total
+	Si total > 500 Entonces
+		Escribir "Usted tiene un descuento del 10% en su proxima compra por su lealtad"
+		
+	SiNo
+		Escribir "Gracias por preferirnos"
+	Fin Si
+	
+FinFuncion
+
+Funcion ejercicios(36,39)
+	//Ejercicio N°36-39 "Calculadora de descuento por volumen de compra"
+	//Definimos cantidad, precio, total como variables enteras
+	//Pedimos al usuario que ingrese la cantidad de un producto que ha comprado
+	//Leer cantidad
+	//Pedimos al usuario que ingrese el precio de cada unidad del producto que compro
+	//Leer precio
+	//total = precio * cantidad
+	//Dependiendo de la cantidad de producto que ha comprado, se le aplicara un descuento
+	//Usamos el comando Si-Entonces
+	Escribir "Calculadora de descuento por volumen de compra"
+	Definir cantidad, precio, total Como real
+	Escribir "Ingrese la cantidad de un producto que ha comprado"
+	leer cantidad
+	Escribir "Ingrese el precio de cada  unidad del producto que compro"
+	leer precio
+	total = precio * cantidad
+	Si (cantidad >= 10) Y (cantidad <= 50) Entonces
+		total2 = total * 5 / 100
+		total3 = total - total2
+	SiNo
+		Si (cantidad >= 51) Y (cantidad <= 100)
+			total2 = total * 10 / 100
+			total3 = total - total2
+		SiNo
+			Si (cantidad > 100)
+				total2 = total * 15 / 100
+				total3 = total - total2
+			FinSi
+		FinSi
+	Fin Si
+	Escribir "El precio final con el descuento aplicado es de:", total3 , "$"
+	
+FinFuncion
+
+Funcion ejercicio40
+	//Ejercicio N°40 "Calculadora de costo de servicio"
+	//Definimos las variables horas, costo, calculo, total como enteras
+	//Pedimos al usuario que ingrese la cantidad de horas al servicio
+	//Leer horas
+	//Dependiendo del valor de la variable horas, se le aplicara un descuento al costo
+	//Utilizamos el comando Si-Entonces para realizar el ejercicio
+	Escribir "Calculadora de costo de servicio"
+	Definir horas, costo, calculo, total Como Entero
+	Escribir "Ingrese el costo"
+	leer costo
+	Escribir "Ingrese la cantidad de horas de servicio necesitad"
+	leer horas
+	Si (horas > 10) Entonces
+		calculo = costo * 20 / 100
+		total = costo - calculo
+	SiNo
+		Escribir "No aplica un descuento"
+	Fin Si
+	Escribir "El precio final es de:", total , "$"
+	
+FinFuncion
+
+Funcion ejercicio41
+	//Ejercicio N°41 "Suma de numeros pares"
+	//Definimos las variables num1, x como enteras
+	//num1 = 0
+	//Utilizamos el bucle for para resolver el ejercicio
+	Escribir "Suma de numeros pares"
+	Definir num1, z como entero
+	num1 = 0
+	Para i = 1 Hasta 50  Hacer
+		Escribir "#" , i
+		si i mod 2 = 0  Entonces
+			num1 = num1 + i
+			z = num1
+		FinSi
+	Fin Para
+	Escribir "La suma de los numeros pares es de:", z
+	
+FinFuncion
+
+Funcion ejercicio42
+	//Ejercicio N°42 "Tabla de multiplicar"
+	//Definimos las variables x como entero
+	//Pedimos al usuario que ingrese un numero
+	//Leer x
+	//Utilizamos un bucle for para realizar la operacion
+	Escribir "Tabla de multiplicar"
+	Definir x, z Como Entero
+	Escribir "Ingrese un numero"
+	leer x
+	Para i = 1 Hasta 12 con paso 1 Hacer
+		z = x * i
+		Escribir x " X ", i " = ", z
+	Fin Para
+FinFuncion
+
+Funcion ejercicio43
+	//Ejercicio N°43 "Contador de vocales"
+	//Definimos la variable palabra como caracter
+	//Pedimos al usuario que ingrese una palabra
+	//Leer palabra
+	//Utilizamos Longitud()
+	//Utilizamos subcadenas
+	//Utilizamos el bucle mientras
+	Escribir "Contador de vocales"
+	Definir palabra Como Caracter
+	Definir n, x, c como entero
+	Escribir "Ingrese una palabra"
+	leer palabra
+	n = longitud(palabra)
+	x = 1
+	c = 0
+	Mientras x <= n Hacer
+		segun Subcadena(palabra,x,x) Hacer
+			     "a" o "A" : 
+				c = c + 1
+				"e" o "E" : 
+					c = c + 1
+				"i" o "O" :
+					c = c + 1
+				"o" o "O" :
+					c = c + 1
+				"u" o "U" :
+					c = c + 1
+				
+		FinSegun
+		x = x + 1
+	Fin Mientras
+	Escribir "La palabra tiene " c " vocales"
+	
+FinFuncion
+
+Funcion ejercicio44
+	//Ejercicio N°44 "Contador de digitos"
+	//Definimos la variable palabra como caracter
+	//Definimos la variable n como entero
+	//Pedimos al usuario que ingrese una palabra
+	//Leer palabra
+	//Utilizamos longitud()
+	Escribir "Contador de digitos"
+	Definir palabra Como Caracter
+	Definir n Como Entero
+	Escribir "Ingrese una palabra"
+	leer palabra
+	n = longitud(palabra)
+	Escribir "La palabra ", palabra ," tiene " , n ," digitos "
+	
+FinFuncion
+
+Funcion ejercicio45
+	//Ejercicio N°45 "Adivinar el numero"
+	//Definimos las variables numerosecreto, x como enteras
+	//Asignamos un valor a la variable numerosecreto
+	//Pedimos al usuario que ingrese un numero
+	//Leer x
+	//Utilizamos el bucle mientras para ejecutar el ejercicio
+	Escribir "Adivinar el numero"
+	Definir numerosecreto, x, z Como Entero
+	numerosecreto  = azar(9) 
+	z = 5
+	Mientras z > 0 Hacer
+		Escribir "Ingrese un  numero"
+		leer x
+		Si numerosecreto = x Entonces
+			Escribir "Felicidades, has adivinado el numero: ", numerosecreto
+			z = 0
+	    SiNo z = z - 1
+			Escribir "Fallaste te quedan ", z , " intentos "
+			Si z = 0 Entonces
+				Escribir "Fallaste los cinco intentos"
+				Escribir "El numero secreto era: " numerosecreto
+			FinSi
+		FinSi
+	Fin Mientras
+FinFuncion
+
+Funcion ejercicio46
+	//Ejercicio N°46 "Contador de alfabeto"
+	//Definimos las variables txt, abc como caracter
+	//Definimos contador como variable entera
+	//contador = 0
+	//Pedimos al usuario que ingrese una frase
+	//Leer txt
+	//Utilizamos un bucle for para realizar el ejercicio
+	Escribir "Contador de alfabeto"
+	Definir txt, abc Como Caracter
+	Definir contador como entero
+	contador = 0
+	Escribir "Ingrese una frase"
+	leer txt
+	Para i  <- 1 Hasta longitud(txt) Con Paso 1 Hacer
+		abc = subcadena(txt,i,i);
+		si abc <> '  ' 	Entonces
+			contador = contador + 1;
+		FinSi
+	Fin Para
+	Escribir "La cantidad de letras es:" , contador;
+	
+FinFuncion
+
+Funcion ejercicio47
+	//Ejercicio N°47 "Suma de numeros impares"
+	//Definimos las variables num1, x como enteras
+	//num1 = 0
+	//Utilizamos el bucle for para resolver el ejercicio
+	Escribir "Suma de numeros impares"
+	Definir num1, z como entero
+	num1 = 0
+	Para i = 1 Hasta 100 Hacer
+		Escribir "#" , i
+		si i mod 2 = 1  Entonces
+			num1 = num1 + i
+			z = num1
+		FinSi
+	Fin Para
+	Escribir "La suma de los numeros impares es de:", z
+	
+FinFuncion
+
+Funcion ejercicio48
+	//Ejercicio N°48 "Contador de caracteres"
+	//Definimos la variable palabra como caracter
+	//Definimos la variable n como entero
+	//Pedimos al usuario que ingrese una palabra
+	//Leer palabra
+	//Utilizamos longitud()
+	Escribir "Contador de caracteres"
+	Definir palabra Como Caracter
+	Definir n Como Entero
+	Escribir "Ingrese una palabra"
+	leer palabra
+	n = longitud(palabra)
+	Escribir "La palabra ", palabra ," tiene " , n ," caracteres "
+	
+FinFuncion
+
+Funcion ejercicio49
+	//Ejercicio N°49 "Suma de numeros"
+	//Definimos las variables num, x como enteras
+	//Pedimos al usuario que ingrese un numero
+	//Leer num
+	//Utilizamos un bucle while pra ejecutar la operacion
+	Escribir "Suma de numeros"
+	Definir num1, num2, x, total como entero
+	Escribir "Ingrese un numero"
+	leer num1 
+	Mientras num1 > 0 hacer
+		Escribir "Ingrese un numero"
+	    leer num1
+		total = total + num1
+	FinMientras
+	
+	Escribir "la suma de los numeros fue de:" , total
+	
+FinFuncion
+
+Funcion ejercicio50
+	//Ejercicio N°50 "Cuenta regresiva"
+	//Definimos las variables a, x como enteras
+	//Pedimos al usuario que ingrese un numero
+	//Leer a
+	//Utilizamos un bucle mientras para realizar el ejercicio
+	Escribir "Cuenta regresiva"
+	Definir a, x como entero
+	Escribir "Ingrese un numero"
+	leer a
+	Repetir
+		Escribir a
+		a = a - 1
+	Hasta Que a = -1
+FinFuncion
+
+Funcion ejercicio51
+	//Ejercicio N°51 "Suma de elementos"
+	//Definimos las variables x, suma, z como enteras
+	//Utilizamos una dimension en la variable z[]
+	//Usamos un bucle para, dentro del cuerpo del bucle: z[x] = azar[15]
+	//La variable suma = 0
+	//Usamos otro bucle para, dentro del cuerpo del bucle: suma = suma + z[x]
+	//Escribimos la suma de los elementos
+	Escribir "Suma de elementos"
+	Definir x, suma, z Como Entero
+	Dimension z[10]
+	para x = 1 hasta 10 con paso 1 Hacer
+		z[x] = azar(15)
+	FinPara
+	suma = 0
+	para x = 1 hasta 10 con paso 1 Hacer
+		suma = suma + z[x]
+		Escribir z[x]
+	FinPara
+	Escribir "La suma de los elementos es:" suma
+	
+FinFuncion 
+
+Funcion ejercicio52
+	//Ejercicio N°52 "Promedios"
+	//Definimos las variables vector, suma, promedio como reales
+	//Definimos x como entero
+	//Usamos dimension vector[5]
+	//Usamos un bucle para, dentro pedimos que ingrese un numero
+	//Leer vector[x]
+	//La variable suma = 0
+	//La variable promedio = 0
+	//Usamos otro bucle para, dentro suma = suma + vector[x]
+	//Escribimos el promedio
+	Escribir "Promedios"
+	Definir vector, suma, promedio Como Real
+	Definir x Como Entero
+	Dimension vector[5]
+	para x = 1 hasta 5 con paso 1 hacer 
+		Escribir "Ingrese un numero"
+		leer vector[x]
+	FinPara
+	suma = 0
+	promedio = 0
+	para x = 1 hasta 5 con paso 1 hacer 
+		suma = suma + vector[x]
+	FinPara
+	promedio = suma / 5
+	Escribir "El promedio es de:" , promedio
+	
+FinFuncion
+
+Funcion ejercicio53
+	//Ejercicio N°53 "Mayor y menor valor"
+	//Definimos las variables a, b mayor1, menor1, vector como enteras
+	//Pedimos al usuario que ingrese el tamaño del vector
+	//Leer a
+	//Usamos dimension vector[a]
+	//Usamos un bucle "Para" donde x = 1 y en su cuerpo pedimos que ingrese un numero y leemos vector[b]
+	//mayor1= 0
+	//menor1 = 0
+	//Usamos otro bucle "Para" y determinamos el numero mayor y el menor
+	Escribir "Mayor y menor valor"
+	Definir a, b, mayor1, menor1, vector como entero
+	Escribir "Ingrese el tamaño del vector"
+	leer a
+	Dimension vector[a]
+	Para b = 1 Hasta a Con Paso 1 Hacer
+		Escribir "Ingrese un numero"
+		leer vector(b)
+	Fin Para
+	mayor1 = 0
+	menor1 = 0
+	Para b = 1 Hasta a Con Paso 1 Hacer
+		Escribir vector(b)
+		Si b = 1 Entonces
+			mayor1 = vector(b)
+			menor1 = vector(b)
+		SiNo 
+			Si vector(b) > mayor1 Entonces
+				mayor1 = vector(b)
+			SiNo
+				Si vector(b) < menor1 Entonces
+					menor1 = vector(b)
+				FinSi
+			FinSi
+		FinSi
+	Fin Para
+	Escribir "El numero mayor es:" , mayor1
+	Escribir "El numero menor es:" , menor1
+FinFuncion
+
+
+Funcion ejercicio54
+	//Ejercicio N°54 "Buscar un elemento"
+	//Definimos a, c, z, vector como variables enteras
+	//Dimension vector[10]
+	//Usamos un bucle "Para" donde a = 1 hasta 10
+	//Dentro del bucle pedimos que ingrese un numero y leemos vector(a)
+	//Pedimos al usuario que ingrese el numero a buscar
+	//Leer c
+	//z = 0
+	//Usamos otro bucle "Para" para localizar la ubicacion del numero
+	//Usamos Si-Entonces
+	//Mostramos los resultados
+	Escribir "Buscar elementos"
+	Definir a, c, z, vector Como Entero
+	Dimension vector[10]
+	Para a = 1 Hasta 10 Con Paso 1 Hacer
+		Escribir "Ingrese un numero"
+		leer vector(a)
+	Fin Para
+	Escribir "Ingrese el numero a buscar"
+	leer c
+	z = 0
+	Para a = 1 Hasta 10 Con Paso 1 Hacer
+		si c = vector(a) Entonces
+			Escribir "El numero ", c ," se encuentra en la ubicacion:" a
+			z = 1
+		FinSi
+	Fin Para
+	Si z = 0 Entonces
+		Escribir "El numero ", c ," no se encuentra en el vector"
+	FinSi
+	
+FinFuncion
+
+
+Funcion ejercicio55
+	//Ejercicio N°55 "Contar elementos pares"
+	//Definimos las variables vector, n, i, par como enteras
+	//Pedimos al usuario que ingrese el tamaño del vector
+	//Leer n
+	//Dimension vector(n)
+	//par = 0
+	//Usamos un comando Para donde i = 0 hasta n
+	//Usamos el comando Si-Entonces
+	//Mostramos los resultados
+	Escribir "Contar elementos pares"
+	Definir vector, i, n,  par1 Como Entero
+	Dimension vector[10]
+	Para n = 1 Hasta 10 Con Paso 1 Hacer
+		Escribir "Ingrese un numero"
+		leer n
+	Fin Para
+	par1 = 0
+	Si n mod 2 = 0 Entonces 
+		par1 = par1 + 1
+		Escribir "La cantidad de numeros pares es de:" , par1
+	SiNo 
+		Escribir "No hay numeros pares"
+	FinSi
+FinFuncion
+
+Funcion ejercicio56
+	//Ejercicio N°56 "Buscar el indice"
+	//Definimos a, b, x, vector como variables enteras
+	//Dimension vector[10]
+	//Usamos un bucle "Para" donde a = 1 hasta 10
+	//Dentro del bucle pedimos que ingrese un numero y leemos vector(a)
+	//Pedimos al usuario que ingrese el numero a buscar
+	//Leer b
+	//zx= 0
+	//Usamos otro bucle "Para" para localizar la ubicacion del numero
+	//Usamos Si-Entonces
+	//Mostramos los resultados
+	Escribir "Buscar el indice"
+	Definir a, b, x, vector Como Entero
+	Dimension vector[10]
+	Para a = 1 Hasta 10 Con Paso 1 Hacer
+		Escribir "Ingrese un numero"
+		leer vector(a)
+	Fin Para
+	Escribir "Ingrese el numero a buscar"
+	leer b
+	x = 0
+	Para a = 1 Hasta 10 Con Paso 1 Hacer
+		si c = vector(a) Entonces
+			Escribir "El numero ", b ," se encuentra en la ubicacion:" a
+			x = 1
+		FinSi
+	Fin Para
+	Si x = 0 Entonces
+		Escribir "El numero ", b ," no se encuentra en el vector"
+	FinSi
+	
+FinFuncion
+
+Funcion ejercicio57
+	//Ejercicio N°57 "Inversion de un arreglo
+	//Definimos las variables n, x, vector1, vector2 como enteras
+	//Pedimos al usuario que ingrese el tamaño del vector
+	//Leer n
+	//Dimension vector1[n], vector2[n]
+	//Usamos el comando "Para"
+	//Mostramos los resultados
+	Escribir "Inversion de un arreglo"
+	Definir n, x, vector1, vector2 como entero
+	Escribir "Ingrese el tamaño del vector"
+	leer n 
+	Dimension vector1[n], vector2[n]
+	Para x = 1 Hasta vector1[n] Con Paso vector2[n] Hacer
+		Escribir "Ingrese un numero"
+		leer vector1(x)
+	Fin Para
+	vector2(1) = vector1(n)
+	Para x = 1 Hasta n - 1 Con Paso 1 Hacer
+		vector2(x + 1) = vector1(x)
+	Fin Para
+	Para x = 1 Hasta n Con Paso 1 Hacer
+		Escribir vector2(x)
+	Fin Para
+	
+FinFuncion
+
+Funcion ejercicio58
+	//Ejercicio N°58 "Funcion sin parametros para saludar"
+	//Creamos la funcion y presentamos el saludo
+	Escribir "Funcion sin parametros para saludar"
+	Escribir "Hola!!, Como estas?"
+	
+FinFuncion
+
+Funcion ejercicio59
+	//Ejercicio N°59 "Funcion para sumar dos numeros"
+	//Definimos la funcion  y las variables
+	Escribir "Funcion para sumar dos numeros"
+	Escribir "La suma de los numeros ingresados es de:" , (a + b)
+	//El resultado lo almacenamos en otra 
+	
+FinFuncion
+
+Funcion ejercicio60
+	//Ejercicio N°60 "Funcion con Return para multiplicar dos numeros
+	//Definimos la variable de retorno
+	//Multiplicamos los numeros
+	Escribir "Funcion con Return para multiplicar dos numeros"
+	Definir producto como real
+	producto = num1 * num2
+	
+FinFuncion
+
+Funcion ejercicio61
+	//Ejercicio N°61 "Funcion sin Return para determinar si un numero es par o impar"
+	//Definimos a como una variable entera
+	//Pedimos Pedimos al usuario que ingrese un  umero
+	//Usamos el comando Si-Entonces para determinar si es par o impar
+	//Si el a mod 2 = 0 Escribimod "el numero es par"; SiNo Escribimos "el numero es impar"
+	Escribir "Funcion si Return para determinar si un numero es par o impar"
+	Definir a Como Entero
+	Escribir "Ingrese un numero"
+	leer a
+	Si a mod 2 = 0 Entonces
+		Escribir "El numero es par"
+	SiNo
+		Escribir "El numero es impar"
+	Fin Si
+	
+FinFuncion
+
+Funcion ejercicio62
+	//Ejercicio N°62 "Funcion con parametros y return para calcular el area de un rectangulo
+	//Definimos area, base, alt como variables reales
+	//Pedimos al usuario que ingrese la altura del rectangulo
+	//Leer alt
+	//Pedimos al usuario que ingrese la base del rectangulo
+	//Leer base
+	//Calculamos el area = base * alt / 2
+	Escribir "Funcion con parametros y return para calcular el area de un rectangulo"
+	Definir area Como Real
+	Escribir "Ingrese la base del rectangulo"
+	Leer base
+	Escribir "Ingrese la altura del rectangulo"
+	leer alt
+	area = base * alt / 2
+	Escribir "El area del rectangulo es:" , area
+	
+FinFuncion
+
+Funcion ejercicio63
+	//Ejercicio N°63 "	Funcion sin parametros para imprimir tu nombre"
+	//Definimos nom como caracter
+	//Pedimos al usuario que ingrese su nombre
+	//Leer nom
+	//Escribimos el nombre del usuario
+	Escribir "Funcion sin parametros para imprimir tu nombre"
+	Definir nom Como Caracter
+	Escribir "Ingrese su nombre"
+	leer nom
+	Escribir "Su nombre es:" , nom
+	
+FinFuncion
+
+Funcion ejercicio64
+	//Ejercicio N°64 "Funcion con Return para convertir grados celsius a fahrenheit
+	//Definimos cel, fare como variables reales
+	//Pedimos al usuario que ingrese el valor de los grados celsius
+	//Leer cel
+	//fare = (cel * (9/5)) + 32 
+	//Mostramos el resultado
+	Escribir "Funcion con return para convertir grados celsius a farenheit"
+	Escribir "Igrese el valor de los grados celsius"
+	leer cel
+	fare = (cel * (9/5)) + 32
+	Escribir "El resultado es: " , fare
+	
+FinFuncion
+
+Funcion ejercicio65
+	//Ejercicio N°65 "Funcion para contar un caracter en una frase"
+	//Definimos las variables a, b como enteras
+	//Definimos las variables frase, c como caracter
+	//a = Longitud(frase) 
+	//Pedimos al usuario que ingrese una frase
+	//leemos frase
+	//Usamos ciclo "Para"
+	Escribir "Funcion para contar un caracter en una frase"
+	Definir a, b Como Entero
+	Definir frase, c Como Caracter
+	a = Longitud(frase)
+	Escribir "Ingrese una frase"
+	leer frase
+	Para i = 0 Hasta a Con Paso 1 Hacer
+		c = Subcadena(frase,i,i) //Evaluamos letra por letra
+		Si c <> "" Entonces
+			frase = frase + c 
+			
+		Fin Si
+	Fin Para
+	a = Longitud(frase)
+	Escribir "La cantidad de caracteres en la frase es" , a
+FinFuncion
+
+Funcion ejercicio66
+	//Ejercicio N°66 "Funcion sin Return para mostrar numeros del 1 al 10"
+	//Definimos num como variable entera
+	//Usamos el bucle "Para"
+	Escribir "Funcion sin Return para mostrar numeros del 1 al 10"
+	Definir num Como Entero
+	Escribir "Numeros del 1 al 10"
+	Para num = 1 Hasta 10 Con Paso 1 Hacer
+		num = num + 1
+	Fin Para
+	Escribir num
+FinFuncion
+
+Funcion ejercicio67
+	//Ejercicio N°67 "Funcion con parametros y return para sumar una lista de numeros"
+	//Definimos num1, suma como real
+	//suma = 0
+	//Pedimos al usuario que ingrese la lista de numeros
+	//Usamos el ciclo Mientras que ira sumando los numeros 
+	Escribir "Funcion con parametros y return para sumar una lista de numeros"
+	Definir num1, suma Como Real
+	suma = 0
+	Mientras c > 0 Hacer
+		Escribir "Ingrese un numero"
+		leer num1 
+		suma = suma + num1 
+		c = c - 1
+	Fin Mientras
+FinFuncion
+Algoritmo ejercicios_secuenciales
+	ejercicio11
+	ejercicio12
+	ejercicio13
+	ejercicio14
+	ejercicio15
+	ejercicio16
+	ejercicio17
+	ejercicio18
+	ejercicio19
+	ejercicio20	
+	ejercicio21
+	ejercicio22
+	ejercicio23
+	ejercicio24
+	ejercicio25
+	ejercicio26
+	ejercicio27
+	ejercicio28
+	ejercicio29
+	ejercicio(30,32)
+	ejercicio33
+	ejercicio34
+	ejercicio35
+	ejercicios(36,39)
+	ejercicio40
+	ejercicio41
+	ejercicio42
+	ejercicio43
+	ejercicio44
+	ejercicio45
+	ejercicio46
+	ejercicio47
+	ejercicio48
+	ejercicio49
+	ejercicio50
+	ejercicio51
+	ejercicio52
+	ejercicio53
+	ejercicio54
+	ejercicio55
+	ejercicio56
+	ejercicio57
+	ejercicio58
+	ejercicio59
+	ejercicio60
+	ejercicio61
+	ejercicio62
+	ejercicio63
+	ejercicio64
+	ejercicio65
+	ejercicio66
+	ejercicio67
+FinAlgoritmo
+
+Funcion ejercicio_video1
+		//Definimos la variable edad como entera
+		//Pedimos al usuario que ingrese su edad
+		//Leer edad
+		//Mostramos la edad del usuario
+		Escribir "Edad"
+		Definir edad Como Entero
+		Escribir "Ingrese su edad"
+		leer edad
+		Escribir edad, "años"
+FinFuncion
+
+
+Funcion ejercicio_video2
+	//Definimos las variable num1, num2, total como enteras
+	//Pedimos al usuario que ingrese el primer numero
+	//Leer num1
+	//Pedimos al usuario que ingrese el segundo numero
+	//Leer num2
+	//total = num1 + num2
+	//Mostramos el resultado
+	Escribir "Suma"
+	Definir num1, num2, total como entero
+	Escribir "Ingrese un numero"
+	leer num1
+	Escribir "Ingrese el segundo numero"
+	leer num2
+	total = num1 + num2 
+	Escribir "La suma de los dos numeros es de:" total
+FinFuncion
+
+Funcion ejercicio_video3
+	//Definimos la variable edad como entera
+	//Pedimos al usuario que ingrese su edad
+	//Leemos edad
+	//Usamos el comando Si-Entonces
+	//Si edad > 18 Entonces escribir eres mayor de edad, SiNo escribimos eres menor de edad
+	Escribir "Definir edad"
+	Definir edad Como Entero
+	Escribir "Ingrese su edad"
+	leer edad
+	Si edad >= 18 Entonces
+		Escribir "Eres mayor de edad"
+	SiNo
+		Escribir "Eres menor de edad"
+	Fin Si
+	
+FinFuncion
+
+Funcion ejercicio_video4
+	//Las variables se asignan
+	//sed = "si"
+	//dinero = "si"
+	//Usamos el comando Si-Entonces
+	//Si sed = "si" y dinero = "si" entonces escribimos "compra una botella de agua"
+	//SiNo; Si sed = "no" y dinero = "si" entonces escribimos "compra un chocolate"
+	//Usamos otro comando Si-Entonces
+	//Si sed = "no" y dinero = "si" entonces escribimos "compra un chocolate"
+	//SiNo; escribimos "no tienes dinero, ve a casa"
+	Escribir "Operador logico"
+	sed = "si"
+	dinero = "si"
+	Si sed = "si" y dinero = "si" Entonces
+		Escribir "Compra una botella de agua"
+	SiNo
+		Si sed = "no" y dinero = "si" Entonces
+			Escribir "Compra un chocolate"
+		SiNo
+			Escribir "No tienes dinero, ve a casa...."
+		FinSi
+	Fin Si
+	
+FinFuncion
+
+Funcion ejercicio_video5
+	//Definimos las variables numaleatorio, num1, intentos como entero
+	//numaleatorio = azar(10)
+	//Pedimos al usuario que ingrese un numero
+	//Leer num1
+	//intentos = 5
+	//Usamos un ciclo Mientras 
+	//Usamos el comando Si-Entonces dentro del ciclo Mientras 
+	Escribir "Ciclo Mientras"
+	Definir numaleatorio, num1, intentos Como Entero
+	numaleatorio = azar(10)
+	Escribir "Ingrese un numero"
+	leer num1
+	intentos = 5
+	Mientras intentos > 0 Hacer
+		Si numaleatorio = num1 Entonces
+			Escribir "Has acertado, el numero secreto era:" , numaleatorio
+			intentos = 0
+		SiNo
+			intentos = intentos - 1
+			Escribir "Fallaste, te quedan " , intentos " intentos"
+		FinSi
+	Fin Mientras
+	Si  intentos = 0 Entonces
+		Escribir "Ya no te quedan mas intentos; Perdiste"
+	SiNo
+		Escribir "Ganaste"
+	Fin Si
+	
+FinFuncion
+
+Funcion ejercicio_video6
+	//Definimos combo como una variable entera
+	//Escribimos "Que combo desea"
+	//Escribimos "1 : combo 1
+	//Escribimos "2 : combo 2
+	//Escribimos "2 : combo 3
+	//Leer combo
+	//Usamos el condicional Segun para realizar el ejercicio
+	Escribir "Condicional Segun"
+	Definir combo Como Entero
+	Escribir "Que combo desea"
+	Escribir "1 : combo 1"
+	Escribir "2: combo 2"
+	Escribir "3 : combo 3"
+	leer combo
+	Segun combo Hacer
+		1:
+			Escribir "El valor es de $5000"
+		2:
+			Escribir "El valor es de $2500"
+		3:
+			Escribir "El valor es de 1000"
+		De Otro Modo:
+			Escribir "No tenemos lo que buscas"
+	Fin Segun
+	
+FinFuncion
+
+Funcion ejercicio_video7
+	//Definimos la variable num como entero
+	//Definimos la variable respuesta como caracter
+	//Usamos el ciclo Repetir
+	//num = azar(10); escribimos  "el numero aleatorio es:" num1
+	//Escribimos "Deseas otro numero?"
+	//Leer respuesta
+	//Hasta Que respuesta = "no"
+	Escribir "Ciclo Repetir"
+	Definir num Como Entero
+	Definir respuesta Como Caracter
+	Repetir
+		num = azar(10)
+		Escribir "El numero aleatorio es:", num
+		Escribir "Deseas otro numero?"
+		leer respuesta
+	Hasta Que respuesta = "n"
+	
+FinFuncion
+
+Funcion ejercicio_video8
+	//Usamos Dimension personas(3)
+	//personas(1) = "Ignacio"
+	//personas(2) = "Victor"
+	//personas(3) = "Juanito"
+	//Usamos el comando "Para"; donde i = 1 hasta 3 con paso 1 Hacer Escribir "El nombre de mi arreglo es: ", personas(i)
+	Escribir "Arreglos y For"
+	Dimension personas(3)
+	personas(1) = "	Ignacio"
+	personas(2) = "Victor"
+	personas(3) = "Juanito"
+	Para i = 1 Hasta 3 Con Paso 1 Hacer
+		Escribir "El nombre del arreglo es:", personas(i)
+	Fin Para
+	
+FinFuncion
+
+Funcion ejercicio_video9
+	Escribir "Funciones"
+	//Para usar una Funcion hay que asignarle un nombre
+	//Funcion Sumar (dato1, dato2)
+	//Escribimos "El resultado es:" , dato1 + dato2 
+	//FinFuncion
+	//Dentro del algoritmo ira la funcion
+FinFuncion
+Algoritmo Ejercicio_videos
+	ejercicio_video1
+	ejercicio_video2
+	ejercicio_video3
+	ejercicio_video4
+	ejercicio_video5
+	ejercicio_video6
+	ejercicio_video7
+	ejercicio_video8
+	FinAlgoritmo
+	
+
