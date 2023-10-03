@@ -1510,7 +1510,7 @@ Algoritmo ejercicios_secuenciales
 	ejercicio67
 FinAlgoritmo
 
-Funcion ejercicio_video1
+	Funcion ejercicio_video1
 		//Definimos la variable edad como entera
 		//Pedimos al usuario que ingrese su edad
 		//Leer edad
@@ -1697,6 +1697,6 @@ Algoritmo Ejercicio_videos
 	ejercicio_video6
 	ejercicio_video7
 	ejercicio_video8
+	ejercicio_video9
 	FinAlgoritmo
 	
-
