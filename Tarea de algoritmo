@@ -1282,12 +1282,16 @@ Funcion ejercicio56
 FinFuncion
 
 Funcion ejercicio57
-	//Ejercicio N°57 "Inversion de un arreglo
-	//Definimos las variables n, x, vector1, vector2 como enteras
-	//Pedimos al usuario que ingrese el tamaño del vector
-	//Leer n
-	//Dimension vector1[n], vector2[n]
-	//Usamos el comando "Para"
+	//Ejercicio N°57 "Inversion de un arreglo"
+	//Definimos las variables a, x como enteras
+        //Definimos las variables n, b como caracter
+        //Pedimos al usuario que ingrese un numero"
+        //Leer a
+	//n = convertirAtexto(a)
+	//x = longitud(n)
+        //b = ""
+        //Usamos el comando Mientras
+        //Usamos la Subcadena
 	//Mostramos los resultados
 	Escribir "Inversion de un arreglo"
 	Definir a, x Como Entero
