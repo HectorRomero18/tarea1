@@ -1234,7 +1234,7 @@ Funcion ejercicio55
 	Escribir "Contar elementos pares"
 	Definir vector, i, n,  par1 Como Entero
 	Dimension vector[10]
-	Para n = 1 Hasta 10 Con Paso 1 Hacer
+	Para i = 1 Hasta 10 Con Paso 1 Hacer
 		Escribir "Ingrese un numero"
 		leer n
 	Fin Para
@@ -1290,21 +1290,19 @@ Funcion ejercicio57
 	//Usamos el comando "Para"
 	//Mostramos los resultados
 	Escribir "Inversion de un arreglo"
-	Definir n, x, vector1, vector2 como entero
-	Escribir "Ingrese el tamaño del vector"
-	leer n 
-	Dimension vector1[n], vector2[n]
-	Para x = 1 Hasta vector1[n] Con Paso vector2[n] Hacer
-		Escribir "Ingrese un numero"
-		leer vector1(x)
-	Fin Para
-	vector2(1) = vector1(n)
-	Para x = 1 Hasta n - 1 Con Paso 1 Hacer
-		vector2(x + 1) = vector1(x)
-	Fin Para
-	Para x = 1 Hasta n Con Paso 1 Hacer
-		Escribir vector2(x)
-	Fin Para
+	Definir a, x Como Entero
+	Definir n, b Como Caracter
+	Escribir "Ingrese un numero"
+	leer a
+	n = ConvertirATexto(a)
+	x = Longitud(n)
+	b = ""
+	Mientras x > 0 Hacer
+		b = b + Subcadena(n,x,x)
+			x = x - 1
+	Fin Mientras
+	Escribir "El numero " , a , " invertido es:" ,ConvertirANumero
+		
 	
 FinFuncion
 
